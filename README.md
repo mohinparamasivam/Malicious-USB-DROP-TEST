@@ -9,9 +9,10 @@ Scripts are for Education Purpusoses only and any attempt of damage or malicious
 
 <h2> Script Execution </h2>
 
-1) Checks for Internet Connection. If fail sleeps and tries until success
-2) Run's simple powershell command and send output to Server instance configured with custom PHP script through POST Request.
-3) PHP Script receives powershell command output through POST Request and sends data to attacker controlled SMTP Server.
+1) Checks for Internet Connection. 
+2) Backgrounds process and checks for internet connection till succeeds.
+3) Run's  powershell command and send output to Server instance configured with custom PHP script through POST Request.
+4) PHP Script receives powershell command output through POST Request and sends data to attacker controlled SMTP Server.
 
 
 <h2> Integration </h2>
