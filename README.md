@@ -7,13 +7,13 @@ Scripts are for Education Purpusoses only and any attempt of damage or malicious
 </p>
 
 
-<h3> Script Execution </h3>
+<h2> Script Execution </h2>
 
 1) Checks for Internet Connection. If fail sleeps and tries until success
 2) Run's simple powershell command and send output to Server instance configured with custom PHP script through POST Request.
 3) PHP Script receives powershell command output through POST Request and sends data to attacker controlled SMTP Server.
 
 
-<h3> Integration </h3>
+<h2> Integration </h2>
 
 <p> Can be combined with https://github.com/mohinparamasivam/SMTP-Invoke-Credentials-Phish for better results </p>
