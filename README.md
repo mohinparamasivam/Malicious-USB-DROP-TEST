@@ -1,10 +1,11 @@
 # Malicious-USB-DROP-TEST
 
-<h2> Disclaimer : </h2>
+<h2> Disclaimer  </h2>
   
 <p>
-This project is created in order to help cyber security professionals and to be used for educational purpose only. Make sure to have legal clearance to run it on any individuals PC. Any misuse of content from this project will not be taken responsibility by the author in any manner </h2>
+Scripts are for Education Purpusoses only and any attempt of damage or malicious activity performed using this script will not bring any liability to the author 
 </p>
+
 
 <h3> Script Execution </h3>
 
