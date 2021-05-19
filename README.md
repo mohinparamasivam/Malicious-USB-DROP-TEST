@@ -1,3 +1,8 @@
 # Malicious-USB-DROP-TEST
 
-<h3> Script checks for internet connection and if succeeds sends output simple PowerShell commands to identify the user who clicked the file in malicious USB. Server setup on Google Cloud with a custom PHP script to receive POST Request and to mail us with the details </h3>
+<h3> Script Execution </h3>
+
+1) Checks for Internet Connection. If fail sleeps and tries until success
+2) Run's simple powershell command and send output to Server instance configured with custom PHP script through POST Request.
+3) PHP Script receives data through POST Request and sends data to attacker controlled SMTP Server.
+
