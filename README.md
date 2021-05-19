@@ -13,3 +13,7 @@ Scripts are for Education Purpusoses only and any attempt of damage or malicious
 2) Run's simple powershell command and send output to Server instance configured with custom PHP script through POST Request.
 3) PHP Script receives powershell command output through POST Request and sends data to attacker controlled SMTP Server.
 
+
+<h3> Integration </h3>
+
+<p> Can be combined with https://github.com/mohinparamasivam/SMTP-Invoke-Credentials-Phish for better results </p>
