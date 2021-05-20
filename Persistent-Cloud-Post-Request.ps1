@@ -4,7 +4,7 @@ $loop = 'true'
 
 try
 {
-    $Response = Invoke-WebRequest -Uri "http://35.240.236.103/phish_response.php"
+    $Response = Invoke-WebRequest -Uri "http://<google cloud ip>/phish_response.php"
     # This will only execute if the Invoke-WebRequest is successful.
     $StatusCode = $Response.StatusCode
 }
